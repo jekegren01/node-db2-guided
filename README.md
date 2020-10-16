@@ -18,7 +18,6 @@ Please follow along as the instructor explores schema design with this API.
 
 ## Notes from Lecture
 
-<!--
 Good structuring of a Database Schema
 -What fields, or columns, does a table need? (ID is always a required)
 -What should the identifying column (or primary key) be?
@@ -39,8 +38,8 @@ ALTER TABLE `<table name>`
 
 DROP TABLE (IF EXISTS is option) `<table name>`
 
--Database Schema Migrations
----
+Database Schema Migrations
+
 This is a way to store the way the schema was created by using files that programatically change the database over time.
 cmd line
     npx knex migrate:make `<filename>`
